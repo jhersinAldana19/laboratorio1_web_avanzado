@@ -1,0 +1,23 @@
+/* Estilos para el navbar */
+.navbar {
+    background-color: rgba(0, 0, 255, 0.7); /* Azul con transparencia */
+    backdrop-filter: blur(10px); /* Filtro de desenfoque para el fondo */
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros contenidos */
+    transition: background-color 0.3s; /* Transición suave para cambios de color */
+}
+
+.navbar a.nav-link {
+    color: #fff !important; /* Asegura que el texto sea blanco para visibilidad */
+}
+
+.navbar a.nav-link:hover {
+    color: #ddd !important; /* Color del texto en hover */
+}
+
+body {
+    padding-top: 60px; /* Espacio suficiente para el navbar fijo */
+}
